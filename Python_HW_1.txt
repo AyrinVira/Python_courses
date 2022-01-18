@@ -1,0 +1,117 @@
+Python. HW_1
+
+1) Создать переменную типа String - Name = 'Строка'
+									
+2) Создать переменную типа Integer - Age = 25
+									
+3) Создать переменную типа Float - fl = 25.3
+									
+4) Создать переменную типа Bytes - Name = b'bytes'; Name = bytes ([50,80])
+								   
+5) Создать переменную типа List - Name = list('123456')
+								
+6) Создать переменную типа Tuple - Name = Tuple('Kartedzh')
+									
+7) Создать переменную типа Set - Name = set('hello')
+								
+8. Создать переменную типа Frozen set - Name = frozenset('hello')
+								
+9) Создать переменную типа Dict - d = {'slovar1': 1, 'slovar2': 2}; d = dict(slovar1 = 1, slovar2 = 'slovar2')
+
+
+10) Вывести в консоль все выше перечисленные переменные с добавлением типа данных. - pritn(type(Name))
+	Name = 'Строка'
+	print(Name)
+	print(type(Name))
+
+	Age = 25
+	print(Age)
+	print(type(Age))
+
+	f1 = 25.3
+	print(f1)
+	print(type(f1))
+
+	Name = b'bytes'
+	print(Name)
+	print(type(Name))
+
+	Name = bytes([50,100])
+	print(chr(50))
+	print(type(Name))
+
+	Name = list('123456')
+	print(Name)
+	print(type(Name))
+
+	Name = tuple('Kartedzh')
+	print(Name)
+	print(type(Name))
+
+	Name = set('hello')
+	print(Name)
+	print(type(Name))
+
+	Name = frozenset('hello')
+	print(Name)
+	print(type(Name))
+
+	d = {'slovar1': 1, 'slovar2': 2}
+	print(d)
+	print(type(d))
+	d = dict(slovar1 = 1, slovar2 = 'slovar2')
+	print(d)
+	print(type(d))
+
+11) Создать 2 переменные String, создать переменную в которой суммируете эти переменные. Вывести в консоль.
+	Name = 'Ayrin '
+	Surname = 'Vira'
+	User = Name+Surname
+	print(User)
+
+12) Создать 2 переменные Integer, создать переменную в которой суммируете эти переменные. Вывести в консоль.
+	a = 3
+	b = 3
+	c = a + b
+	print(c)
+
+13) Создать переменную в которой Разделите эти переменные Int. Вывести в консоль.
+	b = 3
+	c = a / b
+	print(c)a = 3
+	
+14) Создать переменную в которой Умножите эти переменные Int. Вывести в консоль.
+	a = 3
+	b = 3
+	c = a * b
+	print(c)
+
+15) Создать переменную в которой Разделите без остатка эти переменные Int. Вывести в консоль.
+	a = 20
+	b = 3
+	c = a // b
+	print(c)
+
+16) Создать переменную в которой надо присвоить остаток от деления этих переменные Int. Вывести в консоль.
+	a = 20
+	b = 3
+	c = a / b
+	print(c)
+	print(a % b)
+
+17) (7 + 12) ** 3 + 7 * 4 - 44 / 2 ** 4 расставить точки так чтобы получилось 6884.25. Вывести в консоль.
+	a = (7 + 12) ** 3 + 7 * 4 - 44 / 2 ** 4
+	print(a)
+
+18) Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль.
+	print('Kings' + 'wood') 
+
+19) Вывести в одну строку переменные типа String и Integer используя “,” (Запятую)
+	Name = 'Lesson'
+	Number = 1
+	print(Name, Number)
+
+20) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс)
+ 	Name = 'Lesson'
+	Number = 1
+	print(Name, '+', Number)
